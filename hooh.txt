@@ -1,0 +1,29 @@
+————————————————————————————————————
+               VLESS
+————————————————————————————————————
+Remarks        : csuoaaq
+CITY           : Singapore
+ISP            : Contabo Asia Private Limited
+Domain         : contabox3.natanvpn.xyz
+Port TLS       : 443
+Port none TLS  : 80
+Port GRPC      : 443
+id             : aa2d5873-c5b3-4211-8e58-6b829e388192
+Encryption     : none
+Network        : ws - grpc
+Path           : /vless
+serviceName    : vless
+Expired On     : 2024-08-20
+————————————————————————————————————
+            VLESS WS TLS
+————————————————————————————————————
+vless://aa2d5873-c5b3-4211-8e58-6b829e388192@contabox3.natanvpn.xyz:443?path=/vless&security=tls&encryption=none&type=ws#csuoaaq
+————————————————————————————————————
+          VLESS WS NO TLS
+————————————————————————————————————
+vless://aa2d5873-c5b3-4211-8e58-6b829e388192@contabox3.natanvpn.xyz:80?path=/vless&encryption=none&type=ws#csuoaaq
+————————————————————————————————————
+             VLESS GRPC
+————————————————————————————————————
+vless://aa2d5873-c5b3-4211-8e58-6b829e388192@contabox3.natanvpn.xyz:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=vless&sni=bug.com#csuoaaq
+————————————————————————————————————
